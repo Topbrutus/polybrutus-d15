@@ -1,5 +1,14 @@
 # POLYBRUTUS 15D — Exact Euclidean labelled metric and ninefold model eigenvalue
 
+## Official verified public release
+
+- **Zenodo DOI:** [10.5281/zenodo.24408887](https://doi.org/10.5281/zenodo.24408887), [public record 24408887](https://zenodo.org/records/24408887), verified by Zenodo REST API.
+- **Frozen science source tag:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d15/tree/v0.1.0) at commit `680182c69307fe1be8df831cf7b8eacae2f8ff62`.
+- **Successful independent CI:** [GitHub Actions D15 run 44843502748](https://github.com/Topbrutus/polybrutus-d15/actions/runs/44843502748); both verifiers pass.
+- **Three verified Zenodo files:** immutable tagged source ZIP, mathematical preprint PDF, complete 190-pair JSON certificate.
+- **Scientific limits:** exact affine Euclidean metric of rank 15 and hypothetical graph spectrum; no novel universal theorem or physical extra dimension claim.
+
+
 **Human author and research responsibility:** Gabriel St-Pierre (Topbrutus), independent researcher.  
 **Scientific status:** independently reproducible exact computational mathematics; not peer reviewed by independent human researchers.  
 **AI disclosure:** OpenAI ChatGPT (Astra) substantially assisted exact symbolic checking, independent rational checking, graph modelling, research drafting and publication workflow. AI is not an author.
