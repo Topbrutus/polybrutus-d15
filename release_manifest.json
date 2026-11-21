@@ -3,7 +3,7 @@
   "dimension": 15,
   "repository": "Topbrutus/polybrutus-d15",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 20,
   "pairs": 190,
   "affine_rank": 15,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24408836",
   "parent_github_tag": "Topbrutus/polybrutus-d14@v0.1.0",
   "parent_tag_commit": "853687b71dd32b05c807aa47b1c8d7b48d7e97e4",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "680182c69307fe1be8df831cf7b8eacae2f8ff62",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24408887,
+  "zenodo_doi": "10.5281/zenodo.24408887",
   "scientific_delta": "Exact 20-point rank-15 metric preserving 171 labelled distances; chosen ideal graph model eigenvalue 10 with multiplicity 9.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted mathematics, independent software, documentation and release; not an author.",
-  "verification": "Main exact and independent rational-metric checks passed on authorized workstation; CI pending",
-  "next_action": "Create private D15 GitHub, verify exact CI, freeze source tag, stage and verify Zenodo, then publish both and record full evidence."
+  "verification": {
+    "coordinate_affine_rank": "PASS",
+    "centered_gram_rank": "PASS",
+    "gram_psd_exact_factorization": "PASS",
+    "old_labelled_distances": "171/171 PASS",
+    "new_distances": "19/19 PASS",
+    "independent_rational_metric": "190/190 PASS",
+    "negative_controls": "4/4 PASS",
+    "selected_ideal_graph_eigenvalues": "10 x9; 19/2 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "Only on the next user go, start Polybrutus D16 using immutable D15 tag v0.1.0. Target 21 points, 210 pairs, 190 previous distances preserved, 20 new distances and affine rank 16. Do not start D16 before another go.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44843502748,
+    "conclusion": "success",
+    "head_sha": "680182c69307fe1be8df831cf7b8eacae2f8ff62"
+  },
+  "github_main_note": "Citation and integrity-index documentation may move main; the frozen science source tag remains unchanged.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D15_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 168023,
+      "sha256": "d1d866c238dac633834c630fbb99ee1dc3cf4b97c171cfdfea03e96bfa237ae7"
+    },
+    {
+      "name": "POLYBRUTUS_15D_NOTE.pdf",
+      "size": 164522,
+      "sha256": "e55e52a14ea3672e365bf2df712f4b4bc22dfa66ea3eede98598793e8143e5c9"
+    },
+    {
+      "name": "certificate_d15.json",
+      "size": 15959,
+      "sha256": "081b3a3961c25a56ee8306f1e989cd4a550ab37c6a95d472fbb736714ffdcdf1"
+    }
+  ],
+  "publication_approval": "Topbrutus explicitly authorized one new dimension per 'go', with a new GitHub repository and a Zenodo record; go received for D15."
 }
