@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "Cite the Zenodo public DOI after release; before publication cite the frozen source tag."
+message: "Cite the official publicly verified Polybrutus D15 preprint DOI 10.5281/zenodo.24408887."
 title: "Polybrutus 15D: Exact Conservative Euclidean Completion and a Ninefold Weighted-Graph Mode"
 authors:
   - family-names: "St-Pierre"
     given-names: "Gabriel"
     orcid: "https://orcid.org/0009-0009-9297-2336"
 version: "0.1.0"
+doi: 10.5281/zenodo.24408887
 date-released: "2026-11-20"
 url: "https://github.com/Topbrutus/polybrutus-d15"
 license: MIT
